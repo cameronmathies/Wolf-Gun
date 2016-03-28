@@ -1,0 +1,16 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class BKiller : MonoBehaviour {
+    
+    void OnEnable()
+    {
+        StartCoroutine(shot());
+    }
+    IEnumerator shot()
+    {
+        yield return new WaitForSeconds(1.5f);
+        Debug.Log("Test");
+      gameObject.SetActive(false);
+    }
+}
