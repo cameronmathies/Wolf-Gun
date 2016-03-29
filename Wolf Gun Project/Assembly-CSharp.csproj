@@ -52,6 +52,7 @@
      <Compile Include="Assets\Code\Menu\How2Play.cs" />
      <Compile Include="Assets\Code\Menu\Play.cs" />
      <Compile Include="Assets\Code\Menu\Quit.cs" />
+     <Compile Include="Assets\Code\Patrol.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
