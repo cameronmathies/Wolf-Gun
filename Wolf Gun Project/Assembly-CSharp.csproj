@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Code\BKiller.cs" />
      <Compile Include="Assets\Code\Bullet.cs" />
+     <Compile Include="Assets\Code\Cursor.cs" />
      <Compile Include="Assets\Code\Menu\Credits.cs" />
      <Compile Include="Assets\Code\Menu\How2Play.cs" />
      <Compile Include="Assets\Code\Menu\Play.cs" />
