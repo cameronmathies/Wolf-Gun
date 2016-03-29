@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Code\BKiller.cs" />
      <Compile Include="Assets\Code\Bullet.cs" />
+     <Compile Include="Assets\Code\Quit.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
