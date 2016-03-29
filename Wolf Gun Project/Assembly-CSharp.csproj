@@ -47,7 +47,10 @@
   <ItemGroup>
      <Compile Include="Assets\Code\BKiller.cs" />
      <Compile Include="Assets\Code\Bullet.cs" />
-     <Compile Include="Assets\Code\Quit.cs" />
+     <Compile Include="Assets\Code\Menu\Credits.cs" />
+     <Compile Include="Assets\Code\Menu\How2Play.cs" />
+     <Compile Include="Assets\Code\Menu\Play.cs" />
+     <Compile Include="Assets\Code\Menu\Quit.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
