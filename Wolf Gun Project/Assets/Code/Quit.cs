@@ -3,9 +3,10 @@ using System.Collections;
 
 public class Quit : MonoBehaviour {
 
-	void OnTriggerEnter(){
-		if (GetComponent<Collider>().tag == "Ball"){
+	void OnTriggerEnter(Collider other){
+		if (other.tag == "Bullet"){
 			Application.Quit();
+		//	Debug.Log("Quit");
 		}
 }
 }

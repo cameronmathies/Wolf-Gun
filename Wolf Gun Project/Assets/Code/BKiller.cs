@@ -10,7 +10,7 @@ public class BKiller : MonoBehaviour {
     IEnumerator shot()
     {
         yield return new WaitForSeconds(1.5f);
-        Debug.Log("Test");
+      //  Debug.Log("Test");
       gameObject.SetActive(false);
     }
 }
