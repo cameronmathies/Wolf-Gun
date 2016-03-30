@@ -45,9 +45,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Code\Ai\EnemyAI.cs" />
-     <Compile Include="Assets\Code\Ai\EnemySight.cs" />
-     <Compile Include="Assets\Code\Ai\PlayerHealth.cs" />
      <Compile Include="Assets\Code\BKiller.cs" />
      <Compile Include="Assets\Code\Bullet.cs" />
      <Compile Include="Assets\Code\Cursor.cs" />
@@ -56,15 +53,104 @@
      <Compile Include="Assets\Code\Menu\Play.cs" />
      <Compile Include="Assets\Code\Menu\Quit.cs" />
      <Compile Include="Assets\Code\Patrol.cs" />
+     <Compile Include="Assets\Scripts\AudioOffset.cs" />
+     <Compile Include="Assets\Scripts\CaptureNormals.cs" />
+     <Compile Include="Assets\Scripts\Punch.cs" />
+     <Compile Include="Assets\Scripts\RandomFloorBotMovement.cs" />
+     <Compile Include="Assets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Scripts\ScrollingUVs.cs" />
+     <Compile Include="Assets\Scripts\WheelsRotation.cs" />
+     <Compile Include="Assets\Spawner\Example\Script\RandomMover.cs" />
+     <Compile Include="Assets\Spawner\Example\Script\SpawnViewer.cs" />
+     <Compile Include="Assets\Spawner\Scripts\InstanceManager.cs" />
+     <Compile Include="Assets\Spawner\Scripts\SpawnAI.cs" />
+     <Compile Include="Assets\Spawner\Scripts\SpawnEnums.cs" />
+     <Compile Include="Assets\Spawner\Scripts\Spawner.cs" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Spawner\README.txt" />
+     <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Image Effects\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
