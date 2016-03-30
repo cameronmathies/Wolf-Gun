@@ -152,6 +152,25 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 170784557}
+--- !u!1 &215425672 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 181376, guid: c181201bce1e89845af8e6f50e2a135c, type: 2}
+  m_PrefabInternal: {fileID: 307919047}
+--- !u!114 &215425673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 215425672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b905ff14af9dfad48ab7a72f14aad462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthBar: {fileID: 0}
+  Health: 100
+  HealthT: {fileID: 0}
+  FireBall: {fileID: 1379698348}
 --- !u!1001 &274014272
 Prefab:
   m_ObjectHideFlags: 0
@@ -263,7 +282,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 13690464, guid: c181201bce1e89845af8e6f50e2a135c, type: 2}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c181201bce1e89845af8e6f50e2a135c, type: 2}
@@ -838,7 +857,7 @@ GameObject:
   - 23: {fileID: 1379698350}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -886,7 +905,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379698348}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: .5
   m_Height: 2

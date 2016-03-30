@@ -15,8 +15,8 @@ public class Helth : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider other)
 	{
-
-			Debug.Log("Die");
+		if (other.gameObject.tag == "Bad")
+			//Debug.Log("Die");
 			Health -= 6;
 			//Destroy();
 			
