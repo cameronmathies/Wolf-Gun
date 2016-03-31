@@ -495,6 +495,7 @@ GameObject:
   - 4: {fileID: 1006902772}
   - 82: {fileID: 1006902773}
   - 114: {fileID: 1006902774}
+  - 65: {fileID: 1006902775}
   m_Layer: 0
   m_Name: Hurt
   m_TagString: Untagged
@@ -596,6 +597,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hurt: {fileID: 1006902773}
+--- !u!65 &1006902775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1006902771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1057765707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +1150,7 @@ MonoBehaviour:
   m_MinValue: 100
   m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
