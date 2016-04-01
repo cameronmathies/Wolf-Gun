@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Bullet.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Ai\AIEasy.cs">
     <Files>
-      <File FileName="Assets\Code\Bullet.cs" Line="36" Column="10" />
+      <File FileName="Assets\Code\ShootMissle.cs" Line="46" Column="2" />
+      <File FileName="Assets\Code\Ai\AIEasy.cs" Line="32" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
