@@ -56,6 +56,7 @@
      <Compile Include="Assets\Code\Menu\Play.cs" />
      <Compile Include="Assets\Code\Menu\Quit.cs" />
      <Compile Include="Assets\Code\Patrol.cs" />
+     <Compile Include="Assets\Code\ShootMissle.cs" />
      <Compile Include="Assets\Scripts\AudioOffset.cs" />
      <Compile Include="Assets\Scripts\CaptureNormals.cs" />
      <Compile Include="Assets\Scripts\Punch.cs" />

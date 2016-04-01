@@ -4,4 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menues/Main Menu.unity
+  - enabled: 1
+    path: Assets/Scenes/Menues/Credits.unity
+  - enabled: 1
+    path: Assets/Scenes/Menues/custom gun.unity
+  - enabled: 1
+    path: Assets/Scenes/Menues/How2Play.unity
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Mars.unity
