@@ -58,6 +58,7 @@
      <Compile Include="Assets\Code\Menu\Play.cs" />
      <Compile Include="Assets\Code\Menu\Quit.cs" />
      <Compile Include="Assets\Code\Patrol.cs" />
+     <Compile Include="Assets\Code\RGBColor.cs" />
      <Compile Include="Assets\Code\ShootMissle.cs" />
      <Compile Include="Assets\Code\spawner.cs" />
      <Compile Include="Assets\Scripts\AudioOffset.cs" />
