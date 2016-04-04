@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1218696804}
-  camera2: {fileID: 0}
+  camera2: {fileID: 1342486244}
 --- !u!4 &1389130236
 Transform:
   m_ObjectHideFlags: 0
