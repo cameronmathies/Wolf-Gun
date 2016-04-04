@@ -85,6 +85,48 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &143914407
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 482080, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5.56226254
+      objectReference: {fileID: 0}
+    - target: {fileID: 482080, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 12.5711575
+      objectReference: {fileID: 0}
+    - target: {fileID: 482080, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.26492977
+      objectReference: {fileID: 0}
+    - target: {fileID: 482080, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 482080, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 482080, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 482080, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 482080, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &170784557
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +210,7 @@ GameObject:
   - 136: {fileID: 215425680}
   - 114: {fileID: 215425673}
   - 114: {fileID: 215425681}
+  - 65: {fileID: 215425682}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Bad
@@ -240,7 +283,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 215425672}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: .5
   m_Height: 2
   m_Direction: 1
@@ -264,7 +307,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!114 &215425679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,6 +356,18 @@ MonoBehaviour:
   enemyMovementSpeed: 10
   damping: 5
   fpsTarget: {fileID: 1912883341}
+--- !u!65 &215425682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 215425672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &274014272
 Prefab:
   m_ObjectHideFlags: 0
@@ -473,7 +528,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!114 &546972042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,7 +765,7 @@ RectTransform:
   - {fileID: 2054972892}
   - {fileID: 1342949096}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1128,7 +1183,7 @@ Transform:
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!65 &1515969061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1201,7 +1256,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!82 &1662784286
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1299,7 +1354,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!114 &1697389499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1372,7 +1427,7 @@ MonoBehaviour:
   m_MinValue: 100
   m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
