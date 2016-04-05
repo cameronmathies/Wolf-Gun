@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Text : MonoBehaviour {
 
-	string myString = "This is a auto typing text...";
+	pubic string myString;
 	
 	// Use this for initialization
 	void Start () {
@@ -16,6 +16,6 @@ public class Text : MonoBehaviour {
 			GetComponent<GUIText>().text += letter; //for unity 5x
 			// guiText.text += letter;  // for unity 4x
 			yield return new WaitForSeconds(0.3f);
-		}
+		}s
 	}
 }
