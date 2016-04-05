@@ -6,7 +6,7 @@ public class Helth : MonoBehaviour {
 
 	public Slider HealthBar;
 	public int Health;
-	public Text HealthT;
+//	public Text HealthT;`
 	public GameObject FireBall;
 	public AudioSource Hurt;
 	// Use this for initialization
@@ -22,7 +22,7 @@ public class Helth : MonoBehaviour {
 			//Destroy();
 			AudioSource audio = GetComponent<AudioSource>();
 			audio.Play();
-			HealthT.text = Health + "";
+			//HealthT.text = Health + "";
 		}
 		if (other.gameObject.tag == "HP +") {
 			//Debug.Log("Die");
@@ -37,7 +37,7 @@ public class Helth : MonoBehaviour {
 //		if (HealthBar.name == "Gun Heat")
 
 
-//		HealthT.text = Health + "";
+//	HealthT.text = Health + "";
 //		Debug.Log ("Dispay me heath!");
 		
 		if(Health < 0)
