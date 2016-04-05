@@ -1450,14 +1450,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11490786, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
-      propertyPath: FireBall
-      value: 
-      objectReference: {fileID: 1379698348}
     - target: {fileID: 11431662, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
       propertyPath: fpsTarget
       value: 
       objectReference: {fileID: 1912883341}
+    - target: {fileID: 11490786, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
+      propertyPath: FireBall
+      value: 
+      objectReference: {fileID: 1379698348}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
   m_IsPrefabParent: 0
@@ -1470,7 +1470,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1697389498}
   - 114: {fileID: 1697389499}
-  - 114: {fileID: 1697389500}
   m_Layer: 0
   m_Name: -Spawner
   m_TagString: Untagged
@@ -1510,26 +1509,14 @@ MonoBehaviour:
   - {fileID: 2134053419}
   whatToSpawnPrefab:
   - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
-  - {fileID: 112856, guid: b79b49b8248f09e4cbcd4d9c1684350c, type: 2}
-  - {fileID: 162550, guid: f7123b91fe797194cab460ea613c5a3d, type: 2}
+  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
+  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
   whatToSpawnClone:
   - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
-  - {fileID: 112856, guid: b79b49b8248f09e4cbcd4d9c1684350c, type: 2}
-  - {fileID: 162550, guid: f7123b91fe797194cab460ea613c5a3d, type: 2}
-  myCoolTimer: 0
-  spawn: 0
---- !u!114 &1697389500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1697389497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e5fc601f8260994e9edd0f9a04e6100, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
+  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
   myCoolTimer: 10
+  restart: 10
 --- !u!1 &1864798890
 GameObject:
   m_ObjectHideFlags: 0
