@@ -107,6 +107,10 @@ MonoBehaviour:
   blinkSpeed: 35.7999992
   blink: 0
   random: 1
+--- !u!1 &86417017 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
+  m_PrefabInternal: {fileID: 1685408428}
 --- !u!1001 &274014272
 Prefab:
   m_ObjectHideFlags: 0
@@ -1420,7 +1424,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 497246, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -41.9000015
+      value: -84.5100021
       objectReference: {fileID: 0}
     - target: {fileID: 497246, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1508,13 +1512,13 @@ MonoBehaviour:
   - {fileID: 1178284587}
   - {fileID: 2134053419}
   whatToSpawnPrefab:
-  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
-  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
-  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
+  - {fileID: 86417017}
+  - {fileID: 86417017}
+  - {fileID: 86417017}
   whatToSpawnClone:
-  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
-  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
-  - {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
+  - {fileID: 86417017}
+  - {fileID: 86417017}
+  - {fileID: 86417017}
   myCoolTimer: 10
   restart: 10
 --- !u!1 &1864798890

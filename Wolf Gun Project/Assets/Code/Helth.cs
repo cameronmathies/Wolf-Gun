@@ -22,7 +22,7 @@ public class Helth : MonoBehaviour {
 			//Destroy();
 			AudioSource audio = GetComponent<AudioSource>();
 			audio.Play();
-
+			HealthT.text = Health + "";
 		}
 		if (other.gameObject.tag == "HP +") {
 			//Debug.Log("Die");
@@ -34,11 +34,11 @@ public class Helth : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		if (HealthBar.name == "Gun Heat")
-		{
-			HealthBar.value = Health;
-		}
-		HealthT.text = Health + "";
+//		if (HealthBar.name == "Gun Heat")
+
+
+//		HealthT.text = Health + "";
+//		Debug.Log ("Dispay me heath!");
 		
 		if(Health < 0)
 		{
