@@ -73,4 +73,4 @@ public class RGBColor : MonoBehaviour {
 			b2 = Random.Range(0.0f, 1.0f);
 		}
 		
-	}s
+	}
