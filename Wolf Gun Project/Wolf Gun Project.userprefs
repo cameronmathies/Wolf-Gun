@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\RGBColor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\Text.cs">
     <Files>
       <File FileName="Assets\Code\Text.cs" Line="21" Column="12" />
       <File FileName="Assets\Code\myTimer.cs" Line="1" Column="1" />
@@ -10,7 +10,9 @@
       <File FileName="Assets\Code\Ai\AIEasy.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\spawner.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\Audio.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\Helth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\Helth.cs" Line="39" Column="1" />
+      <File FileName="Assets\Code\Menu\MainMenu.cs" Line="10" Column="1" />
+      <File FileName="Assets\Code\BKiller.cs" Line="14" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

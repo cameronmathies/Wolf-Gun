@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6171586c0dddfa64ab9dc882e2dcb81b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Wolfs: {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
 --- !u!136 &13695894
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -188,6 +189,10 @@ Prefab:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Wolfs
+      value: 
+      objectReference: {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 126154}

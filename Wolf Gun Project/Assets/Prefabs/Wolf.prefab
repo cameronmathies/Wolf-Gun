@@ -23,7 +23,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &497246
 Transform:
   m_ObjectHideFlags: 1
@@ -141,7 +141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HealthBar: {fileID: 0}
   Health: 100
-  HealthT: {fileID: 0}
   FireBall: {fileID: 0}
   Hurt: {fileID: 0}
 --- !u!136 &13604078
