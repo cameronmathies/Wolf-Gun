@@ -55,6 +55,7 @@
      <Compile Include="Assets\Code\Helth.cs" />
      <Compile Include="Assets\Code\Menu\Credits.cs" />
      <Compile Include="Assets\Code\Menu\How2Play.cs" />
+     <Compile Include="Assets\Code\Menu\MainMenu.cs" />
      <Compile Include="Assets\Code\Menu\Play.cs" />
      <Compile Include="Assets\Code\Menu\Quit.cs" />
      <Compile Include="Assets\Code\Patrol.cs" />

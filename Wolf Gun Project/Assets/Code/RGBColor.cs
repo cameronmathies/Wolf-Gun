@@ -13,7 +13,7 @@ public class RGBColor : MonoBehaviour {
 		[Range(0.0f, 1.0f)]
 		public float a;
 		[Range(0.0f, 50.0f)]
-		public float blinkSpeed;
+	public float blinkSpeed=3.6f;
 		
 		public bool blink = false;
 		public bool random = false;
