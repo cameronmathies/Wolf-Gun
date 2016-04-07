@@ -107,10 +107,56 @@ MonoBehaviour:
   blinkSpeed: 35.7999992
   blink: 0
   random: 1
---- !u!1 &86417017 stripped
+--- !u!1 &221834134 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 103438, guid: cbf178042253ea942944dee772f8c6a9, type: 2}
-  m_PrefabInternal: {fileID: 1685408428}
+  m_PrefabParentObject: {fileID: 100046, guid: ff438e75d94ff5c4da45f28e9be0f9dc, type: 3}
+  m_PrefabInternal: {fileID: 433549118}
+--- !u!54 &221834136
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 221834134}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &221834137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 221834134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 45.7700005, y: .709999979, z: 80}
+  m_Center: {x: -3.00999999, y: 4.82000017, z: -1.94000006}
+--- !u!64 &221834138
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 221834134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300000, guid: ff438e75d94ff5c4da45f28e9be0f9dc, type: 3}
+--- !u!33 &221834139
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 221834134}
+  m_Mesh: {fileID: 0}
 --- !u!1001 &274014272
 Prefab:
   m_ObjectHideFlags: 0
@@ -1672,13 +1718,13 @@ MonoBehaviour:
   - {fileID: 1178284587}
   - {fileID: 2134053419}
   whatToSpawnPrefab:
-  - {fileID: 86417017}
-  - {fileID: 86417017}
-  - {fileID: 86417017}
+  - {fileID: 221834134}
+  - {fileID: 221834134}
+  - {fileID: 221834134}
   whatToSpawnClone:
-  - {fileID: 86417017}
-  - {fileID: 86417017}
-  - {fileID: 86417017}
+  - {fileID: 221834134}
+  - {fileID: 221834134}
+  - {fileID: 221834134}
   myCoolTimer: 10
   restart: 10
 --- !u!1 &1864798890
