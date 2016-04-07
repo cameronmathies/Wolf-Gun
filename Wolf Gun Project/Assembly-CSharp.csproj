@@ -59,6 +59,7 @@
      <Compile Include="Assets\Code\Menu\MainMenu.cs" />
      <Compile Include="Assets\Code\Menu\Play.cs" />
      <Compile Include="Assets\Code\Menu\Quit.cs" />
+     <Compile Include="Assets\Code\MouseLock.cs" />
      <Compile Include="Assets\Code\Patrol.cs" />
      <Compile Include="Assets\Code\RGBColor.cs" />
      <Compile Include="Assets\Code\ShootMissle.cs" />
