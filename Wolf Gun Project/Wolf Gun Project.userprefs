@@ -15,7 +15,7 @@
       <File FileName="Assets\Code\Menu\MainMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\BKiller.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\Bullet.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\MouseLock.cs" Line="26" Column="1" />
+      <File FileName="Assets\Code\MouseLock.cs" Line="29" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
