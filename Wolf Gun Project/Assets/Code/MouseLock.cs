@@ -22,7 +22,7 @@ public class MouseLock : MonoBehaviour {
 	#endif
 	public void Start()
 	{
-		//UnityEngine.Cursor.visible = false;
+		//sUnityEngine.Cursor.visible = false;
 		RECT cursorLimits;
 		cursorLimits.Left   = 0;
 		cursorLimits.Top    = 0;

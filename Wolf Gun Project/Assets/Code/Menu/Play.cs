@@ -7,6 +7,16 @@ public class Play : MonoBehaviour {
 		if (other.tag == "Bullet"){
 			Application.LoadLevel("Mars");
 			//	Debug.Log("Quit");
-		}
+		}s
+
+		void enter(){
+		
+		if(Input.GetButtonDown("Q")){
+			if (other.tag == "Bullet"){
+				Application.LoadLevel("Mars");
+				//	Debug.Log("Quit");
+			}
 	}
 }
+}
+}s

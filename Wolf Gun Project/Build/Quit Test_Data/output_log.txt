@@ -19,8 +19,12 @@ Platform assembly: C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Bu
 Loading C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.134 seconds
+- Completed reload, in  0.041 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
@@ -28,4 +32,10 @@ XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Initialized touch support.
 Platform assembly: C:\Users\cmathies\Desktop\GitHub\Wolf-Gun\Wolf Gun Project\Build\Quit Test_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1f78 -> priority: 1 
+  Thread -> id: dcc -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.362119 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 0.225044 ms (FindLiveObjects: 0.027113 ms CreateObjectMapping: 0.025607 ms MarkObjects: 0.165092 ms  DeleteObjects: 0.006929 ms)
+
