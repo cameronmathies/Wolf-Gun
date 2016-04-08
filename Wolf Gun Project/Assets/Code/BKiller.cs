@@ -2,14 +2,14 @@
 using System.Collections;
 
 public class BKiller : MonoBehaviour {
-	public GameObject Wolfs;
+	public float Time;
     void OnEnable()
     {
         StartCoroutine(shot());
     }
     IEnumerator shot()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(Time);
       //  Debug.Log("Test");
       gameObject.SetActive(false);
     }
