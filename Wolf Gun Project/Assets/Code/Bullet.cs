@@ -24,7 +24,7 @@ public class Bullet : MonoBehaviour
 
         if (Time.time >= nextFire)
         {
-            if (Input.GetButtonDown("Fire1"))
+			if(Input.GetButtonDown("Fire1"))
             {
                 nextFire = nextFire + 1;
                 Rigidbody hitPlayer;
@@ -34,7 +34,6 @@ public class Bullet : MonoBehaviour
                 //  audio.Play();
             }
         }
-
 
 
         for (var i = 0; i < Input.touchCount; ++i)
