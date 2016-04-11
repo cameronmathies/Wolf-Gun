@@ -20,7 +20,7 @@ public class ShootMissle : MonoBehaviour {
 		{
 			Rigidbody hitPlayer;
 			hitPlayer = Instantiate(projectilePrefab, transform.position, transform.rotation) as Rigidbody;
-			hitPlayer.velocity = transform.TransformDirection(Vector3.forward * 70);
+			hitPlayer.velocity = transform.TransformDirection(Vector3.forward * 170);
 			//            Physics.IgnoreCollision ( projectilePrefab.collider, transform.root.collider );
 			
 			
@@ -33,7 +33,7 @@ public class ShootMissle : MonoBehaviour {
 			{
 				Rigidbody clone;
 				clone = Instantiate(projectilePrefab, transform.position, transform.rotation) as Rigidbody;
-				clone.velocity = transform.TransformDirection(Vector3.forward * 70);
+				clone.velocity = transform.TransformDirection(Vector3.forward * 170);
 				//            Physics.IgnoreCollision ( projectilePrefab.collider, transform.root.collider );
 				
 				
