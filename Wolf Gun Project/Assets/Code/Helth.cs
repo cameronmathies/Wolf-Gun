@@ -9,6 +9,8 @@ public class Helth : MonoBehaviour {
 //	public Text HealthT;`
 	public GameObject FireBall;
 	public AudioSource Hurt;
+	public AudioSource DustSound;
+	public int Menu;
 	// Use this for initialization
 	void Start () {
 		Health = 100;
@@ -42,7 +44,18 @@ public class Helth : MonoBehaviour {
 		
 		if(Health < 0)
 		{
-			Application.LoadLevel("Main Menuss");
+
+			StartCoroutine (Dust ());	
+			//Application.LoadLevel("Main Menu");
 		}
+	}
+
+	IEnumerator Dust(){
+		yield return new WaitForSeconds(4); 
+		DustSound.Play ();
+		yield return new WaitForSeconds(Menu); 
+		Application.LoadLevel("Main Menu");
+
+
 	}
 }

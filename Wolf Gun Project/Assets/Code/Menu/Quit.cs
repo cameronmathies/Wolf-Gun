@@ -8,5 +8,9 @@ public class Quit : MonoBehaviour {
 			Application.Quit();
 		//	Debug.Log("Quit");
 		}
+		if (other.tag == "Player") {
+			Application.Quit();
+			//	Debug.Log("Quit");
+		}
 }
 }
