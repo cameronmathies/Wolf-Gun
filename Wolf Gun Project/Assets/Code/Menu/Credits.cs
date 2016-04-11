@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour {
 
@@ -11,8 +12,11 @@ public class Credits : MonoBehaviour {
 		}
 	}
 
-	void NameScene (){
-
+	void Start (){
+		if (SceneManager.GetActiveScene().name == "Credits")
+		{
+			StartCoroutine (Names ());	
+		}
 	}
 
 	IEnumerator Names(){
