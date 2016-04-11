@@ -8,6 +8,10 @@ public class Play : MonoBehaviour {
 			Application.LoadLevel ("Mars");
 			//	Debug.Log("Quit");
 		}
+		if (other.tag == "Player") {
+			Application.LoadLevel ("Mars");
+			//	Debug.Log("Quit");
+		}
 	}
 
 //		void enter(){

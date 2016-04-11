@@ -6,7 +6,9 @@ public class Audio : MonoBehaviour {
 	public AudioSource Hurt;
 	public AudioSource MedKit;
 	public AudioSource Lazer;
+	public AudioSource Socpe;
 	public int MedKitNumber;
+	public int SocpeNumber;
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.tag == "Bad") {
@@ -31,12 +33,23 @@ public class Audio : MonoBehaviour {
 		
 	}
 
+	void Start(){
+		StartCoroutine (SocpeSound ());	
+	}
 
 	IEnumerator Med(){
 		//Destroy();
 		Hurt = GetComponent<AudioSource> ();
 		yield return new WaitForSeconds(MedKitNumber); 
 		MedKit.Play ();
+	}
+
+	IEnumerator SocpeSound(){
+		//Destroy();
+		//Socpe = GetComponent<AudioSource> ();
+		yield return new WaitForSeconds(SocpeNumber); 
+		Socpe.Play ();
+		StartCoroutine (SocpeSound ());	
 	}
 
 }
