@@ -28,7 +28,7 @@ public class Helth : MonoBehaviour {
 		}
 		if (other.gameObject.tag == "HP +") {
 			//Debug.Log("Die");
-			Health += 600;
+			Health -= 30;
 			//Destroy();
 		}
 			
