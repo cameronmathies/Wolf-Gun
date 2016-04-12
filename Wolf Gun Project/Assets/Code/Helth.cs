@@ -54,7 +54,8 @@ public class Helth : MonoBehaviour {
 		yield return new WaitForSeconds(4); 
 		DustSound.Play ();
 		yield return new WaitForSeconds(Menu); 
-		Application.LoadLevel("Main Menu");
+		Application.LoadLevel("Credits");
+
 
 
 	}

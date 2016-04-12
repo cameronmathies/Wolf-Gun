@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour {
 
@@ -12,18 +12,18 @@ public class Credits : MonoBehaviour {
 		}
 	}
 
-	void Start (){
-		if (SceneManager.GetActiveScene().name == "Credits")
-		{
-			StartCoroutine (Names ());	
-		}
-	}
-
-	IEnumerator Names(){
-		yield return new WaitForSeconds(34); 
-		Application.LoadLevel("Main Menu");
-
-		
-		
-	}
+//	void Start (){
+//
+//
+//			StartCoroutine (Names ());	
+//
+//	}
+//
+//	IEnumerator Names(){
+//		yield return new WaitForSeconds(34); 
+//		Application.LoadLevel("Main Menu");
+//
+//		
+//		
+//	}
 }
