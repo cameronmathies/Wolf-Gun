@@ -6,7 +6,7 @@ public class Helth : MonoBehaviour {
 
 	public Slider HealthBar;
 	public int Health;
-//	public Text HealthT;`
+	public Text HealthT;
 	public GameObject FireBall;
 	public AudioSource Hurt;
 	public AudioSource DustSound;
@@ -39,7 +39,7 @@ public class Helth : MonoBehaviour {
 //		if (HealthBar.name == "Gun Heat")
 
 
-//	HealthT.text = Health + "";
+		GameObject.Find("Text").GetComponent<GUIText>().text = Health + "";
 //		Debug.Log ("Dispay me heath!");
 		
 		if(Health < 0)

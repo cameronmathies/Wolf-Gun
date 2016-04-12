@@ -7,6 +7,7 @@ public class spawner : MonoBehaviour {
 	public GameObject[] whatToSpawnPrefab;
 	public GameObject[] whatToSpawnClone;
 	public float myCoolTimer;
+	public float TimeTillEndOfGAme;
 	public float restart = 0f;
 
 	void Start(){
@@ -24,9 +25,14 @@ public class spawner : MonoBehaviour {
 			spawnSomethingAwesomePlease ();
 			myCoolTimer += restart;
 		}
+		TimeTillEndOfGAme -= Time.deltaTime;
+		if (TimeTillEndOfGAme < 0) {
+			Application.LoadLevel("Credits");
+		}
 	}
 
 	void Timer(){
 		myCoolTimer -= Time.deltaTime;
 	}
 }
+
