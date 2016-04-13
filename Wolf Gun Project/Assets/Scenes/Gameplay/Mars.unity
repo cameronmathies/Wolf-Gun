@@ -838,7 +838,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
 --- !u!1 &377475975 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 148578, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
@@ -2626,7 +2626,7 @@ GameObject:
   - 114: {fileID: 1389130235}
   m_Layer: 0
   m_Name: Cam Manger
-  m_TagString: Untagged
+  m_TagString: Bad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2812,7 +2812,7 @@ Transform:
   m_LocalScale: {x: 239.309174, y: 0, z: 239.309113}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
 --- !u!1 &1480196080
 GameObject:
   m_ObjectHideFlags: 0
@@ -2910,7 +2910,7 @@ Transform:
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
 --- !u!1 &1515969056
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,7 +3113,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
 --- !u!1 &1547191063 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 121404, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}
@@ -3630,52 +3630,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 45b57d9ebc9acbd4a8b679ab55b9ea75, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &1805901710
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 406826, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -1743.57349
-      objectReference: {fileID: 0}
-    - target: {fileID: 406826, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1259.16943
-      objectReference: {fileID: 0}
-    - target: {fileID: 406826, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1423.09595
-      objectReference: {fileID: 0}
-    - target: {fileID: 406826, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 406826, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 406826, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 406826, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 406826, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 171582, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-      propertyPath: m_Name
-      value: Car (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 3a8de52f01b07834cafc6fc78d97dd9c, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1864798890
 GameObject:
   m_ObjectHideFlags: 0
@@ -3822,7 +3776,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
 --- !u!1 &1912883339 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -3987,6 +3941,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesLeft: 0
+  Kill: 30
+  Wolfs: {fileID: 2019016391}
 --- !u!1 &2019016391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,6 +3952,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2019016393}
   - 108: {fileID: 2019016392}
+  - 114: {fileID: 2019016394}
   m_Layer: 0
   m_Name: Directional light
   m_TagString: Untagged
@@ -4047,6 +4004,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &2019016394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2019016391}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d37c480a652f884f8988deb89d46868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Wolfs: {fileID: 2019016391}
+  Kill: 30
 --- !u!1 &2079369489 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100238, guid: aa0596f9d90701a4993e7dd0686b3bf7, type: 2}

@@ -4,8 +4,10 @@ using System.Collections;
 public class gameobjects : MonoBehaviour {
 
 	// Use this for initialization
-	public int enemiesLeft = 0;
+	public int enemiesLeft = 1;
 	bool killedAllEnemies = false;
+	public float Kill;
+	public GameObject Wolfs;
 	void Start () {
 		enemiesLeft = 10; // or whatever;
 		
@@ -23,11 +25,17 @@ public class gameobjects : MonoBehaviour {
 		{
 			endGame();
 		}
+
+			Kill -= Time.deltaTime;
+			if (Kill < 0) {
+			Destroy(Wolfs);
+			}
 	}
 	
 	void endGame()
 	{
 		killedAllEnemies = true;
+		Application.LoadLevel("Credits");
 	}
 	
 	void OnGUI()

@@ -21,4 +21,10 @@ public class EKiller : MonoBehaviour {
 			Destroy(Wolfs);
 		}
 	}
+
+	void Update(){
+		Kill -= Time.deltaTime;
+		if (Kill < 0) {
+				}
+	}
 }

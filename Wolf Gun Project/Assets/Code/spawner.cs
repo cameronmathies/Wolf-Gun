@@ -25,10 +25,10 @@ public class spawner : MonoBehaviour {
 			spawnSomethingAwesomePlease ();
 			myCoolTimer += restart;
 		}
-		TimeTillEndOfGAme -= Time.deltaTime;
-		if (TimeTillEndOfGAme < 0) {
-			Application.LoadLevel("Credits");
-		}
+//		TimeTillEndOfGAme -= Time.deltaTime;
+//		if (TimeTillEndOfGAme < 0) {
+//			Application.LoadLevel("Credits");
+//		}
 	}
 
 	void Timer(){

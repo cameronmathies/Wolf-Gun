@@ -1261,6 +1261,7 @@ GameObject:
   - 114: {fileID: 11437298}
   - 64: {fileID: 6449824}
   - 65: {fileID: 6503480}
+  - 114: {fileID: 11463298}
   m_Layer: 0
   m_Name: Car
   m_TagString: Bad
@@ -5122,6 +5123,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 2}
   skidParticles: {fileID: 0}
+--- !u!114 &11463298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d37c480a652f884f8988deb89d46868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Wolfs: {fileID: 171582}
+  Kill: 0
 --- !u!114 &11468396
 MonoBehaviour:
   m_ObjectHideFlags: 1
